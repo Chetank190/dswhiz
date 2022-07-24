@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<br/>
+<center>
+<!--    Double curly brackets if passing variables-->
+    <h1>Hello {{ f_name }}!</h1>
+    <h1>Hello
+        {% if f_name == "Chetan" %}
+            {{ f_name }}
+        {% else %}
+            There!!
+        {% endif %}
+
+    </h1>
+<br/>
+{{ favorite_pizza }}
+<br/>
+<ol>
+{% for topping in favorite_pizza %}
+
+    <li>{{ topping }}</li>
+
+{% endfor %}
+</ol>
+
+</center>>
+
+<br/><br/>
+<!--<a href="/about">About Me</a>-->
+
+
+{% endblock %}

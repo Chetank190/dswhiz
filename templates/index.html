@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+<!--        <link href="static/css/styles.css" rel="stylesheet" />-->
+        <link href="{{ url_for('static',
+        filename='css/styles.css') }}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Chetan Kumar</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ url_for('static', filename='assets/img/myprofile.jpg') }}" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certification</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Chetan
+                        <span class="text-primary">Kumar</span>
+                    </h1>
+                    <div class="subheading mb-5">
+<!--                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·-->
+                        <a href="mailto:name@email.com">chetan3471@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">I am a data science enthusiast who is a student by heart. </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/chetan-1-kumar/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/Chetank190"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://twitter.com/_DSWhiz"><i class="fab fa-twitter"></i></a>
+<!--                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data Specialist</h3>
+                            <div class="subheading mb-3">DCM Inc, Lindsay, Ontario</div>
+                            <p>Automated manual data cleaning process of custom architectural drawings for clients like Coca-Cola using python.
+                                Developed a python application to find all the files from the sub-directories and extract information like File Path, File Name, Checksum (SHA-1 format), creation date etc.
+                                Streamlined data pipeline process within departments which saved more than 100 man hours per week </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2022 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Senior Quality Analyst</h3>
+                            <div class="subheading mb-3">uTrade Solutions, India</div>
+                            <p>Lead a team of around 10 people including interns, reviewed their test cases, and bugs and performed pair testing whenever required. Escalate priority issues to be fixed with the development team.
+                                Contributed to the formula designing for deducting maximum margin for stock brokers.
+                                Performed end-to-end testing of platform and client features such as Collateral, Position, and SPAN Margin file upload
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2017 - January 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Quality Analyst</h3>
+                            <div class="subheading mb-3">uTrade Solutions, India</div>
+                            <p>Got hands-on experience in an agile environment performing functionality, integration, smoke, sanity, and regression testing on various arbitrage-based algorithms
+                                Performed analysis on stocks trading historical data in a test environment and prepared high-valued reports
+                                Contributed to the development of HFT-HFT, a concept used to transfer orders from one location to another (host to target) using FIX tags which helped institutional clients save approx. $30,000 annually
+</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2016 - July 2017</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Trent University</h3>
+                            <div class="subheading mb-3">Master in Data Science (AMOD)</div>
+                            <div>Relevant Courses:  Statistics, Big data, Data visualization, Data Mining, Databases, R Programming</div>
+                            <p>GPA: 91.40</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - August 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Chitkara University, India</h3>
+                            <div class="subheading mb-3">Bachelor of Engineering in Computer Science</div>
+                            <div>Relevant Courses:  Object-Oriented Programming, Operating System, Data Structures</div>
+                            <p>GPA: 8.15</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2012 - July 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fa-brands fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-r"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-aws"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-github"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-jira"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-jenkins"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-linux"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-database"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Data Cleaning
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Data wrangling
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Data Visualization
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Data Modeling and Interpretation
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a data specialist, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Canada, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Microsoft Certified: Azure Al Fundamentals, University of Calgary
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Python for Data Science and AI, Coursera
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+<!--                            1-->
+<!--                            <sup>st</sup>-->
+                            Foundations for Big Data Analysis with SQL, Coursera
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+<!--                            1-->
+<!--                            <sup>st</sup>-->
+                            Getting and Cleaning Data, Coursera
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+<!--                            2-->
+<!--                            <sup>nd</sup>-->
+                            R Programming, Coursera
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+<!--                            1-->
+<!--                            <sup>st</sup>-->
+                            Building Candlestick Charts with Tableau, Coursera
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+<!--                            3-->
+<!--                            <sup>rd</sup>-->
+                            Git Essential Training: The Basics, LinkedIn Learning
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+<!--                            3-->
+<!--                            <sup>rd</sup>-->
+                            ISTQB Certification, in Software Testing
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
